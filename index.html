@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <section class="display">
@@ -12,22 +16,26 @@
           <input
             type="search"
             placeholder="Enter a city..."
+            class="search-form-input"
             required
             autofocus
           />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </head>
       <main>
         <h1>Berlin</h1>
         <p>
+        <div class="weather-data">
         <div>
           Thursday 15:39, moderate rain
           <br />
           Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
         </div>
-        <div>
-          ☀️ 22°C
+        <div class="current-weather">
+          ☀️
+        </div>
+        <div class="current-temp">22</div><span class="celcius">°C</span>
         </div>
         </p>
       </main>
