@@ -12,11 +12,12 @@
   <body>
     <section class="display">
       <head>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             class="search-form-input"
+            id="search-form-input"
             required
             autofocus
           />
@@ -24,7 +25,7 @@
         </form>
       </head>
       <main>
-        <h1>Berlin</h1>
+        <h1 id="current-city">Berlin</h1>
         <p>
         <div class="weather-data">
         <div>
@@ -55,5 +56,6 @@
         >Netlify</a
       >
     </footer>
+    <script src="src/index.js"> </script>
   </body>
 </html>
