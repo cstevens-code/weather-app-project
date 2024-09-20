@@ -71,26 +71,24 @@ a {
 }
 
 .current-weather {
-  font-size: 90px;
-  color: black;
-  font-weight: 700;
+  width: 100px;
   position: relative;
   top: -110px;
-  left: 220px;
+  left: 216px;
 }
 
 .current-temp {
-  font-size: 24px;
+  font-size: 30px;
   color: rgb(127, 131, 131);
   font-weight: 600;
   position: relative;
-  top: 7px;
-  left: 56px;
+  top: -6px;
+  left: 51px;
 }
 
 .celcius {
   position: relative;
-  top: 10px;
-  left: -42px;
+  top: 0px;
+  left: -40px;
   font-weight: 600;
 }
