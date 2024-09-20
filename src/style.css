@@ -39,7 +39,7 @@ a {
 .display {
   background-color: white;
   max-width: 600px;
-  margin: 45px auto;
+  margin: 76px auto;
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(46, 50, 57, 0.2);
@@ -71,12 +71,12 @@ a {
 }
 
 .current-weather {
-  font-size: 80px;
+  font-size: 90px;
   color: black;
   font-weight: 700;
   position: relative;
-  top: -116px;
-  left: 224px;
+  top: -110px;
+  left: 220px;
 }
 
 .current-temp {
@@ -84,12 +84,13 @@ a {
   color: rgb(127, 131, 131);
   font-weight: 600;
   position: relative;
-  top: -12px;
-  left: 63px;
+  top: 7px;
+  left: 56px;
 }
 
 .celcius {
   position: relative;
-  top: -9px;
-  left: -39px;
+  top: 10px;
+  left: -42px;
+  font-weight: 600;
 }
