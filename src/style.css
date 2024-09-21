@@ -92,3 +92,37 @@ a {
   left: -40px;
   font-weight: 600;
 }
+
+.forecast-data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(127, 131, 131);
+}
+
+.weather-forecast-icon {
+  font-size: 40px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  color: rgb(57, 166, 193);
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
+.temp-low {
+  color: rgba(57, 166, 193, 0.8);
+}
